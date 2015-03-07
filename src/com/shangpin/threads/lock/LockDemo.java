@@ -123,6 +123,7 @@ class User implements Runnable {
 				+ "，当前金额为" + myCount.getCash());
 		// 释放锁，否则别的线程没有机会执行了
 		myLock.unlock();
+
 	}
 }
 
