@@ -43,7 +43,7 @@ class MyThread implements Runnable {
 
 }
 
-public class AATest {
+public class Example {
 	public static void main(String[] args) {
 		MyThread mt = new MyThread();
 		Thread t1 = new Thread(mt,"线程A");
